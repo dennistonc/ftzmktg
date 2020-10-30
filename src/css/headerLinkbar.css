@@ -1,0 +1,13 @@
+nav {
+  background-color: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+}
+
+.brand-logo {
+  left: 25px;
+}
+
+nav ul a {
+  font-size: 18px;
+  font-weight: 500;
+}

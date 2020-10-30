@@ -7,17 +7,19 @@ import '../css/footer.css';
   <footer className="page-footer">
           <div className="container">
             <div className="row">
-              <div className="col l6 s12">
-                <h6 className="white-text">BUSINESS PHONE NO.</h6>
-                <p className="grey-text text-lighten-4">xxx-xxx-xxxx</p>
-                <h6 className="white-text">FAX NO.</h6>
-                <p className="grey-text text-lighten-4">xxx-xxx-xxxx</p>
+              <div className="col">
+                <i className="material-icons">phone</i>
+                <i className="material-icons">local_printshop</i>
+                </div>
+                <div className="col">
+                <p>xxx-xxx-xxxx</p>
+                <p>xxx-xxx-xxxx</p>
               </div>
             </div>
           </div>
           <div className="footer">
-            <div className="container">
-            © 2020 Copyright Text
+            <div className="container copyright-text">
+            Copyright © 2020
             </div>
           </div>
         </footer>

@@ -7,6 +7,7 @@ import React, { useState } from 'react';
         <h4 className="collection-header">First Names</h4>
         <a href="#!" className="collection-item">Alvin</a>
         <a href="#!" className="collection-item active">Alvin</a>
+        {/* make active a state for when clicked on */}
         <a href="#!" className="collection-item">Alvin</a>
         <a href="#!" className="collection-item">Alvin</a>
     </div>

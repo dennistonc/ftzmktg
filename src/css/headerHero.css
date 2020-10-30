@@ -1,0 +1,10 @@
+body {
+  background-image: url(../images/torontoEdits2.png);
+  background-size: cover;
+  background-color: #d3d9db;
+  top: 0%;
+}
+
+h1 {
+  padding-left: 15%;
+}

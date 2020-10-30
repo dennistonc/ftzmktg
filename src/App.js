@@ -18,7 +18,6 @@ function App() {
   return (
     <React.Fragment>
       <HeaderLinkbar />
-      <FooterLink />
     </React.Fragment>
   );
 }
