@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
-// import { Link, Redirect } from 'react-router-dom';
+import React from 'react';
 import '../css/homeInfo.css';
 
  function HomeCard() {
  return (
-   <div class="container">
+   <div className="container home-card">
     <div className="col s10 l12 xl12">
-      <h4 className="header">Welcome To Fritz Marketing Inc.</h4>
       <div className="card horizontal">
         <div className="card-stacked">
           <div className="card-content">

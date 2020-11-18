@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import M from "materialize-css/dist/js/materialize.min.js";
 import Homepage from '../Home';
 import Catalogpage from '../Catalog';
 import Contactpage from '../Contact';

@@ -1,8 +1,5 @@
 import React from 'react';
 import HeaderLinkbar from './components/headerLinkbar';
-import HeaderHero from './components/headerHero';
-import FooterLink from './components/footer';
-import Homepage from './Home';
 
 const theme = {
       global: {

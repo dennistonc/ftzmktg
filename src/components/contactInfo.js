@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-// import { Link, Redirect } from 'react-router-dom';
-// import '../assets/css/headerLinkbar.css';
+import React from 'react';
+import '../css/contactInfo.css';
 
  function ContactCard() {
  return (
-  <div className="col s12 m7">
-    <h4 className="header">Contact Information</h4>
-    <div className="card horizontal">
+  <div className="row">
+    <div className="col s12 m12 l10 offset-l1">
+      <h4 className="header">Contact Information</h4>
+      <div className="card horizontal">
       <div className="card-stacked">
         <div className="card-content">
           <h5>Vice President</h5>
@@ -19,10 +19,12 @@ import React, { useState } from 'react';
           <p>JohnDoe@sample.com</p>
           <h5>Address</h5>
           <p>123 Sample St.</p>
+          {/* could add map API (TomTom) here using API and Auth0 and apiRouting.js file to handle it all; maybe future edits */}
         </div>
         </div>
       </div>
     </div>
+  </div>
  )};
 
  export default ContactCard;

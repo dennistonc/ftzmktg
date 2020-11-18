@@ -12,8 +12,8 @@ import '../css/footer.css';
                 <i className="material-icons">local_printshop</i>
                 </div>
                 <div className="col">
-                <p>xxx-xxx-xxxx</p>
-                <p>xxx-xxx-xxxx</p>
+                <p>999-999-9999</p>
+                <p>999-999-9999</p>
               </div>
             </div>
           </div>

@@ -1,13 +1,15 @@
 import React from 'react';
-import HeaderHero from './components/headerHero';
+import HomeHero from './components/homeHero';
 import HomeCard from './components/homeInfo';
+import HomeVouchCard from './components/homeVouchInfo';
 import FooterLink from './components/footer';
 
 function Homepage() {
   return (
     <React.Fragment>
-      <HeaderHero />
+      <HomeHero />
       <HomeCard />
+      <HomeVouchCard />
       <FooterLink />
     </React.Fragment>
   );
